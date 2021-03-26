@@ -1164,7 +1164,7 @@ class GameCoordinator {
     ];
 
     this.maxFps = 120;
-    this.tileSize = 13;
+    this.tileSize = 11;
     this.scale = this.determineScale(1);
     this.scaledTileSize = this.tileSize * this.scale;
     this.firstGame = true;
