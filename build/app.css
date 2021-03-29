@@ -49,6 +49,7 @@ body {
 .header-buttons {
   margin: 16px;
   position: absolute;
+  display: flex;
   width: 100%;
   z-index: 2;
 }
@@ -61,7 +62,7 @@ body {
   padding: 0;
 }
 .header-buttons button .material-icons {
-  font-size: 40px;
+  font-size: 24px;
 }
 
 .paused-text {
@@ -103,16 +104,20 @@ body {
 }
 .game-ui .top ._25 {
   width: 25%;
+  font-size: 8.5px;
 }
 .game-ui .top ._50 {
   width: 50%;
+  font-size: 8.5px;
 }
 .game-ui .top .column :first-child {
   text-align: center;
+  font-size: 8.5px;
 }
 .game-ui .top .column :not(:first-child) {
   margin-right: calc(50% - 3em);
   text-align: right;
+  font-size: 8.5px;
 }
 .game-ui .bottom {
   justify-content: space-between;
@@ -474,4 +479,9 @@ body {
   50% {
     opacity: 1;
   }
+}
+#git-button {
+  height: 24px;
+  width: 24px;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QAAAAAAAD5Q7t/AAAACXBIWXMAAABgAAAAYADwa0LPAAABpUlEQVRIx9WUsUscYRDF3+fi2dkkapRUIW1SCIL3V+hFQpI+kCZgKxbhUkZFbNXSQApBxEb/AJskJLVoziKehRyI3eGR45dmVob1u73d63ywMN/Oe/O+nR1GeugIeUmgIqkmaU7StKSnlmpK+i1pX9J+CKFT2hlYABr0xx/gVZnCCbBWoHAWq8BQEYNBiqf4UqQtKfaAKrAN/APawLk9bXu3ZZw9p5vv+UMzPV9yuTEgybRxzJ2Xne7MhkOS5HtWk/TMnSfvRi2EVgih687dEELLcSdc/Nym7t4XfHO36ALVEoMxYy1L8TVGOnWEn0WLO/0vpz+JteiJi8/KGkg6dfFUzCBx8egABl6T3Mva+KW48lNToD0J0HL6RuwLfrh4XNL7Erf/IOmxO3+P3eKduXeAW3s++pmOaEaARdN4vImRK8AFcAnMAodGvgZ2vZEVPgBuIuviLzDc60bpqmgAj4AjWwsrEe5Oj32Uv1mBDSN+6sP7HCm+XmQihpzJMbAJvI7w6tniFFnXmXY1TVzPMbjo25YckwrwFngRyb20XGWQ2g8H/wFYVcBNEPB0RwAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMS0wMy0yOVQxNzoxODo0MyswMDowMDYidv8AAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjEtMDMtMjlUMTc6MTg6NDMrMDA6MDBHf85DAAAAAElFTkSuQmCC");
 }
